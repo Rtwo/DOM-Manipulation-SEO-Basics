@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Playing Mobile Games — ML</title>
+  <meta name="description" content="My favorite hobby is playing mobile games like Mobile Legends and Call of Duty Mobile. Learn why I enjoy them and how to get started." />
+
+  <style>
+    :root { --accent: #3498db; --muted: #666; font-family: system-ui, Arial, sans-serif; }
+    body { margin: 18px; line-height:1.5; color:#111; }
+    header { text-align:center; margin-bottom:14px; }
+    img { max-width:100%; height:auto; border-radius:8px; display:block; margin:10px 0; }
+    .controls { margin:12px 0; }
+    button { margin-right:8px; padding:8px 12px; border-radius:6px; border:0; background:var(--accent); color:#fff; cursor:pointer; }
+    button:focus { outline:3px solid rgba(52,152,219,0.25); }
+    footer { margin-top:20px; color:var(--muted); font-size:0.9rem; text-align:center; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Playing Mobile Games — ML</h1>
+    <h2>Fun and competitive gaming anytime, anywhere</h2>
+  </header>
+
+  <main id="main-content">
+    <!-- Paragraph targeted by DOM -->
+    <section aria-labelledby="intro-heading">
+      <h3 id="intro-heading">Introduction</h3>
+      <p id="target-paragraph">
+        Playing mobile games like Mobile Legends is one of my favorite hobbies because they are fast, social, and easy to play on the go.
+      </p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlXsvn_GhKYfZSr0jcwMptAJKfS0iYr0zSqQ&s"
+           alt="Mobile Legends Bang Bang logo with colorful background">
+    </section>
+
+    <!-- List targeted by DOM -->
+    <section aria-labelledby="reasons-heading">
+      <h3 id="reasons-heading">Why I Enjoy Mobile Games</h3>
+      <ul id="reasons-list">
+        <li>Quick matches that fit any schedule</li>
+        <li>Play with friends anytime, anywhere</li>
+      </ul>
+    </section>
+
+    <!-- DOM control buttons -->
+    <section class="controls" aria-label="DOM controls">
+      <button id="changeTextBtn" type="button">Change Paragraph Text</button>
+      <button id="addItemBtn" type="button">Add List Item</button>
+      <button id="removeElementBtn" type="button">Remove Element</button>
+    </section>
+
+    <!-- Accessibility note -->
+    <p style="color:var(--muted); font-size:.92rem;">
+      Tip: Buttons modify the DOM as required by Part A — try them in this order: change text → add item → remove element.
+    </p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 — Mobile Gaming Hobby Demo</p>
+  </footer>
+
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
